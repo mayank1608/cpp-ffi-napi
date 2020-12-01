@@ -1,0 +1,17 @@
+{
+  "name": "cpp-ffi",
+  "version": "1.0.0",
+  "description": "Call cpp dll function using node",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node main.js",
+    "build": "node-gyp-build rebuild"
+  },
+  "author": "Mayank",
+  "license": "ISC",
+  "dependencies": {
+    "ffi-napi": "^3.1.0",
+    "node-gyp-build": "^4.2.3"
+  }
+}
